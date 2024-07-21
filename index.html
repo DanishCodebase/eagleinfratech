@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Eagle Infratech</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-sm-5">
+        <a class="navbar-brand" href="./"
+          ><img height="60" src="./assets/images/logo-removebg.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Residential</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Commercial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Industrial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Us</a>
+            </li>
+          </ul>
+          <button class="btn bg-primary text-white" type="submit">
+            <i class="ri-calendar-fill"></i> Request an Appointment
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/residential.jpg"
+              class="d-block d-lg-none w-100"
+              alt="..."
+            />
+            <div class="img img1 d-none d-lg-block"></div>
+            <div class="carousel-text position-absolute text-primary">
+              <h1>FAST ELECTRICAL SERVICES!</h1>
+              <p>We provide Reliable and Affordable services</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/commercial.jpeg"
+              class="d-block d-lg-none w-100"
+              alt="..."
+            />
+            <div class="img img2 d-none d-lg-block"></div>
+            <div class="carousel-text position-absolute text-primary">
+              <h1>REPAIR AND TROUBLESHOOTING!</h1>
+              <p>Our Professional workers will take care of it it</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/industrial.jpg"
+              class="d-block d-lg-none w-100"
+              alt="..."
+            />
+            <div class="img img3 d-none d-lg-block"></div>
+            <div class="carousel-text position-absolute text-primary">
+              <h1>GREAT EQUIPMENT AND PRODUCTS!</h1>
+              <p>Our Professional workers will take care of it it</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <div class="prev-btn">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </div>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <div class="next-btn">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </div>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="cta position-relative">
+      <div class="container">
+        <h4 class="text-primary">Book an Appointment</h4>
+        <form class="row gy-2 gx-3 align-items-end">
+          <div class="col-12 col-lg">
+            <label class="mb-2" for="autoSizingInput">First & Last Name*</label>
+            <input
+              type="text"
+              class="form-control"
+              id="autoSizingInput"
+              placeholder="First & Last Name"
+            />
+          </div>
+          <div class="col-12 col-lg">
+            <label class="mb-2" for="autoSizingInput">Email*</label>
+            <input
+              type="email"
+              class="form-control"
+              id="autoSizingInput"
+              placeholder="email@domain.com"
+            />
+          </div>
+          <div class="col-12 col-lg">
+            <label class="mb-2" for="autoSizingInput">Phone Number*</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="autoSizingInput"
+              placeholder="+91-XXXXXXXXXX"
+            />
+          </div>
+          <div class="col-12 col-lg">
+            <label class="mb-2" for="autoSizingInput">ZIP/Postal Code*</label>
+            <input
+              type="number"
+              class="form-control"
+              id="autoSizingInput"
+              placeholder="ZIP/Postal Code*"
+            />
+          </div>
+          <div class="col-12 col-lg mt-4 mt-lg-0">
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="we">
+      <div class="container">
+        <h2 class="text-primary text-center">
+          We Are Residential & Commercial Electricians
+        </h2>
+        <p class="text-center">
+          Eagle Infratech has the power to make things better.TM Embrace the
+          ease of call-ahead scheduling with Eagle Infratech's 24/7 customer
+          service. Our skilled service professionals prioritize quality, respect
+          your home, and provide transparent upfront pricing for peace of mind.
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="card border-0">
+              <div class="card-img">
+                <img
+                  src="https://mrelectric.com/us/en-us/_assets/images/brand-img/home-page/circuit-breaker-female-customer.webp"
+                  alt=""
+                />
+              </div>
+              <h5>Electrical Safety</h5>
+              <p>
+                Elevate your electrical safety with our range of services, from
+                inspections to surge protection
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <div class="card-img">
+                <img
+                  src="https://mrelectric.com/us/en-us/_assets/images/brand-img/home-page/electrical-outlet.webp"
+                  alt=""
+                />
+              </div>
+              <h5>Repair</h5>
+              <p>
+                Repairs including lighting and electrical, should be performed
+                by a professional electrician
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <div class="card-img">
+                <img
+                  src="https://mrelectric.com/us/en-us/_assets/images/brand-img/home-page/outdoor-security-camera.webp"
+                  alt=""
+                />
+              </div>
+              <h5>Installation</h5>
+              <p>
+                Trust our professionals for all your installation needs
+                including panel upgrades, EVSE, and more
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <div class="card-img">
+                <img
+                  src="https://mrelectric.com/us/en-us/_assets/images/brand-img/home-page/circuit-breaker-female-customer.webp"
+                  alt=""
+                />
+              </div>
+              <h5>Lighting</h5>
+              <p>
+                From ballast & bulb replacement to commercial, bathroom &
+                kitchen lighting, we’ve got you covered
+              </p>
+            </div>
+          </div>
+          <!-- <div class="col">
+            Repairs including lighting and electrical, should be performed by a
+            professional electrician
+          </div>
+          <div class="col">
+            Trust our professionals for all your installation needs including
+            panel upgrades, EVSE, and more
+          </div>
+          <div class="col">
+            From ballast & bulb replacement to commercial, bathroom & kitchen
+            lighting, we’ve got you covered
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+nav.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(10px);
+  padding: 0 !important;
+}
+
+.nav-item {
+  margin: 0 30px;
+}
+
+.nav-item:last-child {
+  margin-right: 70px;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+#navbarSupportedContent button {
+  padding: 12px 20px;
+  font-weight: 500;
+}
+
+/* hero section css */
+
+.hero {
+  font-family: Roboto, Arial, sans-serif;
+  color: #000000;
+}
+
+.img {
+  height: 100vh;
+  background-size: cover;
+  /* background-position: center; */
+  filter: blur(3px);
+}
+
+.img1 {
+  background-image: url(./assets/images/residential.jpg);
+}
+
+.img2 {
+  background-image: url(./assets/images/commercial.jpeg);
+}
+
+.img3 {
+  background-image: url(./assets/images/industrial.jpg);
+}
+
+.prev-btn,
+.next-btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-style: italic;
+  width: max-content;
+}
+
+.carousel-text p {
+  font-size: 28px;
+}
+
+.cta {
+  top: -10%;
+}
+
+.cta .container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 24px 32px;
+}
+
+.we .col > .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 8px !important;
+}
+
+.we .col > .card .card-img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.we .col > .card img {
+  height: 185px;
+  width: 100%;
+}
+
+.we .col > .card h5 {
+  margin-top: 15px;
+}
+
+@media (max-width: 1280px) {
+  .nav-item {
+    margin: 0 10px;
+  }
+
+  .nav-item:last-child {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .nav-item {
+    margin: 0 auto;
+  }
+
+  .nav-item:last-child {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-item {
+    margin: 0 auto;
+  }
+
+  .nav-item:last-child {
+    margin-right: auto;
+  }
+
+  #navbarSupportedContent button {
+    display: block;
+    margin: auto;
+  }
+
+  .img {
+    background-position: center;
+  }
+
+  .cta {
+    top: 0;
+    padding-top: 60px;
+  }
+
+  .carousel-text h1 {
+    font-size: 40px;
+  }
+
+  .carousel-text p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-text h1 {
+    font-size: 32px;
+  }
+
+  .carousel-text p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding-top: 70px;
+  }
+
+  .carousel-text h1 {
+    font-size: 24px;
+  }
+
+  .carousel-text p {
+    font-size: 18px;
+  }
+
+  .prev-btn,
+  .next-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .prev-btn span,
+  .next-btn span {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel-text h1 {
+    font-size: 20px;
+  }
+
+  .carousel-text p {
+    font-size: 16px;
+  }
+
+  .prev-btn,
+  .next-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .prev-btn span,
+  .next-btn span {
+    width: 16px;
+    height: 16px;
+  }
+}
