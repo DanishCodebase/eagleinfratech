@@ -449,7 +449,7 @@ nav .nav-item:last-child {
 
   .cta {
     top: 0;
-    padding-top: 60px;
+    padding: 60px 0;
   }
 
   .carousel-text h1 {
@@ -476,9 +476,6 @@ nav .nav-item:last-child {
     font-size: 20px;
   }
 
-  .we .container {
-    margin-top: 60px;
-  }
   .navbar-collapse {
     margin-bottom: 20px;
   }
