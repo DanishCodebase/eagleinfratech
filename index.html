@@ -137,12 +137,13 @@
     <section id="cta" class="cta position-relative">
       <div class="container">
         <h4 class="text-primary">Book an Appointment</h4>
-        <form class="row gy-2 gx-3 align-items-end" netlify>
+        <form name="enquiry" class="row gy-2 gx-3 align-items-end" netlify>
           <div class="col-12 col-lg">
             <label class="mb-2" for="autoSizingInput">First & Last Name*</label>
             <input
               type="text"
               class="form-control"
+              name="name"
               id="autoSizingInput"
               placeholder="First & Last Name"
             />
@@ -152,6 +153,7 @@
             <input
               type="email"
               class="form-control"
+              name="email"
               id="autoSizingInput"
               placeholder="email@domain.com"
             />
@@ -161,6 +163,7 @@
             <input
               type="tel"
               class="form-control"
+              name="number"
               id="autoSizingInput"
               placeholder="+91-XXXXXXXXXX"
             />
@@ -170,6 +173,7 @@
             <input
               type="number"
               class="form-control"
+              name="zip"
               id="autoSizingInput"
               placeholder="ZIP/Postal Code*"
             />
