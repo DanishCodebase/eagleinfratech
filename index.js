@@ -51,3 +51,22 @@ $(document).ready(function () {
     },
   });
 });
+
+// let btn = true;
+
+const show = document
+  .querySelector(".show-more")
+  .addEventListener("click", function () {
+    for (let i = 0; i < 15; i++) {
+      document.querySelectorAll(".less")[i].classList.remove("d-none");
+      document.querySelector(".show-more").classList.add("d-none");
+      // if (btn) {
+      //   document.querySelector(".show-more").innerHTML =
+      //     "Show Less Projects ...";
+      // } else {
+      //   document.querySelector(".show-more").innerHTML =
+      //     "Show More Projects ...";
+      // }
+      // btn = !btn;
+    }
+  });
